@@ -56,20 +56,22 @@ export default function Home() {
       {/* ---------- HERO ---------- */}
       <section className="hero" data-journey="Inspire">
         <div className="hero-media">
-          <Picture id="photo-1615873968403-89e068629265" alt="Warm contemporary living room with teal accent wall designed by Rishi Home Interior" w={2000} h={1125} eager sizes="100vw" ws={[900, 1400, 2000]} />
+          <Picture id="photo-1615529182904-14819c35db37" alt="Calm sage-green contemporary living room designed by Rishi Home Interior" w={2000} h={1125} eager sizes="100vw" ws={[900, 1400, 2000]} />
         </div>
         <div className="hero-in">
           <div className="hero-grid">
             <div>
-              <span className="label on-dark rv">Rishi Home Interior</span>
-              <h1 className="d1 rv" data-d="1">
-                Spaces that feel
-                <br />
-                like <em>home.</em>
-              </h1>
-              <p className="lede rv" data-d="2">
-                Thoughtfully designed interiors that balance beauty, functionality and the way you live.
-              </p>
+              <div className="hero-copy">
+                <span className="label on-dark rv">Rishi Home Interior</span>
+                <h1 className="d1 rv" data-d="1">
+                  Spaces that feel
+                  <br />
+                  like <em>home.</em>
+                </h1>
+                <p className="lede rv" data-d="2">
+                  Thoughtfully designed interiors that balance beauty, functionality and the way you live.
+                </p>
+              </div>
               <div className="hero-actions rv" data-d="3">
                 <Link className="btn btn-light" to="/design-ideas">
                   Explore designs <Arrow />

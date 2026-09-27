@@ -364,6 +364,24 @@ a:hover .frame img,.zoom:hover .frame img{transform:scale(1.045)}
 .empty{text-align:center;padding:clamp(60px,10vw,130px) 0;display:grid;gap:16px;justify-items:center}
 
 /* ============ LIGHTBOX ============ */
+/* ============ FLOATING WHATSAPP ============ */
+.whatsapp-fab{
+  position:fixed;right:22px;bottom:22px;z-index:80;
+  width:58px;height:58px;border-radius:50%;
+  background:#25D366;display:grid;place-items:center;
+  box-shadow:0 10px 26px -6px rgba(37,211,102,.55),0 2px 8px rgba(0,0,0,.18);
+  transition:transform .35s var(--ease),box-shadow .35s var(--ease);
+  animation:whatsappPulse 2.6s ease-in-out infinite;
+}
+.whatsapp-fab:hover{transform:scale(1.08);box-shadow:0 14px 32px -6px rgba(37,211,102,.65),0 2px 8px rgba(0,0,0,.22)}
+@keyframes whatsappPulse{
+  0%,100%{box-shadow:0 10px 26px -6px rgba(37,211,102,.55),0 0 0 0 rgba(37,211,102,.35)}
+  50%{box-shadow:0 10px 26px -6px rgba(37,211,102,.55),0 0 0 10px rgba(37,211,102,0)}
+}
+@media (max-width:560px){
+  .whatsapp-fab{right:16px;bottom:16px;width:52px;height:52px}
+}
+
 .lb{position:fixed;inset:0;z-index:120;background:rgba(10,9,8,.96);display:none;align-items:center;justify-content:center;padding:clamp(14px,4vw,58px)}
 .lb.open{display:flex;animation:fade .35s var(--ease)}
 @keyframes fade{from{opacity:0}to{opacity:1}}
@@ -603,7 +621,9 @@ a:hover .frame img,.zoom:hover .frame img{transform:scale(1.045)}
   .masonry{columns:2;column-gap:10px}
   .masonry>*{margin-bottom:10px}
   .rail{grid-auto-columns:minmax(200px,72vw)}
-  .hero-actions .btn{flex:1;justify-content:center;padding-inline:16px}
+  .hero-copy{display:none}
+  .hero-actions{flex-direction:column;align-items:stretch}
+  .hero-actions .btn{width:100%;justify-content:center}
   .stack-imgs .b{display:none}
   .split-img .frame{aspect-ratio:4/5}
   .cols{grid-template-columns:1fr}

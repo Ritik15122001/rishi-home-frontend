@@ -5,6 +5,7 @@ import MobileMenu from "./MobileMenu";
 import JourneyRail from "./JourneyRail";
 import Footer from "./Footer";
 import Lightbox from "./Lightbox";
+import FloatingWhatsApp from "./FloatingWhatsApp";
 import { useUiStore } from "../store/uiStore";
 import { META } from "../lib/content";
 
@@ -109,6 +110,7 @@ export default function Layout() {
       </main>
       <Footer />
       <Lightbox />
+      <FloatingWhatsApp />
     </>
   );
 }

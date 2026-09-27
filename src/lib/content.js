@@ -8,9 +8,10 @@ export const BRAND = {
   nameLead: "Rishi Home",
   nameAccent: "Interior",
   tagline: "Thoughtful interiors. Timeless living.",
-  phone: "+91 98765 43210",
-  phoneHref: "tel:+919876543210",
-  email: "hello@rishihomeinterior.com",
+  phone: "+91 98104 81819",
+  phoneHref: "tel:+919810481819",
+  whatsapp: "919810481819",
+  email: "rishijihome@gmail.com",
   address: "First floor, G - 97, G Block, Sector 9, Noida, Uttar Pradesh 201304",
   hours: "Mon – Sat · 10:00 – 19:00"
 };
@@ -133,6 +134,6 @@ export const META = {
   "/about": { t: "About the Studio | Rishi Home Interior",
     d: "A Delhi interior design studio working since 2018. Planning first, styling last — our story, philosophy, approach and values." },
   "/contact": { t: "Book a Consultation | Rishi Home Interior",
-    d: "Tell us about your space and book a free interior design consultation. Call +91 98765 43210 or send us your requirements." },
+    d: "Tell us about your space and book a free interior design consultation. Call +91 98104 81819 or send us your requirements." },
   "404": { t: "Page Not Found | Rishi Home Interior", d: "The page you were looking for has moved or never existed." }
 };
