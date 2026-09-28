@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { BRAND, NAV } from "../lib/content";
 import { SOCIAL_ICONS } from "../lib/icons";
+import logo from "../assets/logo.png";
 
 const IDEA_LINKS = [
   { name: "Kitchen", slug: "kitchen" },
@@ -17,15 +18,13 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-top">
           <div className="foot-brand">
-            <b>
-              {BRAND.nameLead} <em>{BRAND.nameAccent}</em>
-            </b>
+            <img className="foot-logo" src={logo} alt="Rishi Home Interior — Your Dream Home Designer" />
             <p>{BRAND.tagline}</p>
             <div className="socials">
               {Object.keys(SOCIAL_ICONS).map((k) => (
-                <Link key={k} to="/contact" aria-label={k} rel="noopener">
+                <a key={k} href={BRAND.social[k]} target="_blank" rel="noopener noreferrer" aria-label={k}>
                   {SOCIAL_ICONS[k]}
-                </Link>
+                </a>
               ))}
             </div>
           </div>

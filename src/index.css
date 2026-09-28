@@ -492,8 +492,7 @@ a:hover .frame img,.zoom:hover .frame img{transform:scale(1.045)}
 .foot ul{list-style:none;display:grid;gap:11px}
 .foot ul a{font-size:13.5px;font-weight:300;color:rgba(242,239,233,.66);transition:color .35s}
 .foot ul a:hover{color:#fff}
-.foot-brand b{font-family:var(--serif);font-size:clamp(1.1rem,1.6vw,1.45rem);letter-spacing:.1em;text-transform:uppercase;font-weight:600;display:block;margin-bottom:14px}
-.foot-brand b em{font-style:italic;font-weight:700;margin-left:.14em;color:#E4C271}
+.foot-logo{width:clamp(120px,12vw,150px);height:auto;margin-bottom:16px;border-radius:8px}
 .foot-brand p{font-family:var(--serif);font-size:1.28rem;font-style:italic;font-weight:300;color:rgba(242,239,233,.72);max-width:24ch;line-height:1.35}
 .socials{display:flex;gap:10px;margin-top:26px}
 .socials a{width:40px;height:40px;border:1px solid rgba(255,255,255,.18);display:grid;place-items:center;color:rgba(242,239,233,.72);transition:.4s var(--ease)}
