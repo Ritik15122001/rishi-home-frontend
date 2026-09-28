@@ -13,7 +13,12 @@ export const BRAND = {
   whatsapp: "919810481819",
   email: "rishijihome@gmail.com",
   address: "First floor, G - 97, G Block, Sector 9, Noida, Uttar Pradesh 201304",
-  hours: "Mon – Sat · 10:00 – 19:00"
+  hours: "Mon – Sat · 10:00 – 19:00",
+  social: {
+    Facebook: "https://www.facebook.com/Rishihomeinterior?rdid=8DAuX5cO6V9NaV2Y&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19DpRntfk3%2F%3Fref%3D1",
+    Instagram: "https://www.instagram.com/rishihome?stkn=MWp4ZnFmaXB0cTk0eQ%3D%3D",
+    YouTube: "https://www.youtube.com/@rishihomeinteriormodularki3407"
+  }
 };
 
 export const NAV = [

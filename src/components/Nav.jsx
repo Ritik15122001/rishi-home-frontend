@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { BRAND, NAV } from "../lib/content";
+import { NAV } from "../lib/content";
 import { useUiStore } from "../store/uiStore";
+import logo from "../assets/logo.png";
 
 export default function Nav({ scrolled }) {
   const menuOpen = useUiStore((s) => s.menuOpen);
@@ -9,11 +10,8 @@ export default function Nav({ scrolled }) {
   return (
     <header className={"nav" + (scrolled ? " scrolled" : "")} id="nav">
       <div className="nav-in">
-        <NavLink className="brand" to="/" aria-label="Rishi Home Interior — home">
-          <b>
-            {BRAND.nameLead} <em>{BRAND.nameAccent}</em>
-          </b>
-          <i>Thoughtful interiors</i>
+        <NavLink className="brand" to="/" aria-label="Rishi Home Interior — Your Dream Home Designer">
+          <img src={logo} alt="Rishi Home Interior — Your Dream Home Designer" />
         </NavLink>
         <nav className="nav-links" aria-label="Primary">
           {NAV.map((n) => (

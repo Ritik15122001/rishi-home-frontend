@@ -49,7 +49,7 @@ export const SOCIAL_ICONS = {
   Facebook: (
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10.4 5.2h1.7V2.6h-2c-2 0-3.1 1.2-3.1 3.2v1.3H5V9.7h2v5.7h2.6V9.7h2l.4-2.6H9.6V6c0-.6.3-.8.8-.8Z" stroke="currentColor" strokeWidth="1.1" strokeLinejoin="round" /></svg>
   ),
-  Pinterest: (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.9" stroke="currentColor" strokeWidth="1.1" /><path d="M6.4 14.2c.4-1.5 1.3-4.9 1.3-4.9s-.3-.6-.3-1.4c0-1.3.8-2.3 1.7-2.3.8 0 1.2.6 1.2 1.4 0 .8-.5 2.1-.8 3.3-.2.9.5 1.7 1.4 1.7 1.7 0 2.8-2.1 2.8-4.1 0-1.7-1.2-3-3.3-3-2.4 0-3.9 1.8-3.9 3.7 0 .7.2 1.2.5 1.5.2.2.2.3.1.5l-.1.6" stroke="currentColor" strokeWidth="1.05" strokeLinejoin="round" /></svg>
+  YouTube: (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="1.1" y="3.4" width="13.8" height="9.2" rx="2.6" stroke="currentColor" strokeWidth="1.1" /><path d="M6.6 6.4v3.2l3-1.6-3-1.6Z" fill="currentColor" /></svg>
   )
 };

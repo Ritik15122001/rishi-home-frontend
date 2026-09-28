@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import Picture from "../components/Picture";
+import HeroCarousel from "../components/HeroCarousel";
 import DesignCard from "../components/DesignCard";
 import CatTile from "../components/CatTile";
 import SectionHead from "../components/SectionHead";
@@ -56,7 +57,7 @@ export default function Home() {
       {/* ---------- HERO ---------- */}
       <section className="hero" data-journey="Inspire">
         <div className="hero-media">
-          <Picture id="photo-1615529182904-14819c35db37" alt="Calm sage-green contemporary living room designed by Rishi Home Interior" w={2000} h={1125} eager sizes="100vw" ws={[900, 1400, 2000]} />
+          <HeroCarousel />
         </div>
         <div className="hero-in">
           <div className="hero-grid">
