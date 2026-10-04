@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { NAV } from "../lib/content";
 import { useUiStore } from "../store/uiStore";
-import logoIcon from "../assets/logo-icon.png";
+import logo from "../assets/logo.png";
 import logoWordmark from "../assets/logo-wordmark.png";
 
 export default function Nav({ scrolled }) {
@@ -12,9 +12,9 @@ export default function Nav({ scrolled }) {
     <header className={"nav" + (scrolled ? " scrolled" : "")} id="nav">
       <div className="nav-in">
         <NavLink className="brand" to="/" aria-label="Rishi Home Interior — Your Dream Home Designer">
-          <img className="brand-icon" src={logoIcon} alt="" />
-          <img className="brand-wordmark" src={logoWordmark} alt="Rishi Home Interior — Your Dream Home Designer" />
+          <img src={logo} alt="Rishi Home Interior — Your Dream Home Designer" />
         </NavLink>
+        <img className="brand-wordmark-standalone" src={logoWordmark} alt="" aria-hidden="true" />
         <nav className="nav-links" aria-label="Primary">
           {NAV.map((n) => (
             <NavLink key={n.href} to={n.href} end={n.href === "/"} className={({ isActive }) => (isActive ? "active" : "")}>
