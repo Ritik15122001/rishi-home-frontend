@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import { NAV } from "../lib/content";
 import { useUiStore } from "../store/uiStore";
 import logo from "../assets/logo.png";
-import logoWordmark from "../assets/logo-wordmark.png";
 
 export default function Nav({ scrolled }) {
   const menuOpen = useUiStore((s) => s.menuOpen);
@@ -14,7 +13,10 @@ export default function Nav({ scrolled }) {
         <NavLink className="brand" to="/" aria-label="Rishi Home Interior — Your Dream Home Designer">
           <img src={logo} alt="Rishi Home Interior — Your Dream Home Designer" />
         </NavLink>
-        <img className="brand-wordmark-standalone" src={logoWordmark} alt="" aria-hidden="true" />
+        <div className="brand-wordmark-standalone" aria-hidden="true">
+          <b>Rishi Home Interior</b>
+          <i>Your Dream Home Designer</i>
+        </div>
         <nav className="nav-links" aria-label="Primary">
           {NAV.map((n) => (
             <NavLink key={n.href} to={n.href} end={n.href === "/"} className={({ isActive }) => (isActive ? "active" : "")}>
