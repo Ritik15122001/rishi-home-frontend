@@ -141,10 +141,12 @@ button{background:none;border:0;cursor:pointer}
 .brand-wordmark-standalone b{
   font-family:var(--serif);font-size:clamp(15px,1.7vw,20px);font-weight:700;letter-spacing:.06em;
   text-transform:uppercase;color:#E4C271;line-height:1;
+  -webkit-text-stroke:0.6px #E4C271;text-shadow:0 0 1px #E4C271;
 }
 .brand-wordmark-standalone i{
   position:relative;font-family:var(--serif);font-style:italic;font-weight:700;font-size:clamp(11px,1.3vw,15px);
   letter-spacing:.03em;color:#F0D48C;line-height:1;padding-top:3px;
+  -webkit-text-stroke:0.5px #F0D48C;text-shadow:0 0 1px #F0D48C;
 }
 .brand-wordmark-standalone i::before,.brand-wordmark-standalone i::after{
   content:"";position:absolute;top:50%;width:14px;height:1px;background:#8a5f21;
