@@ -140,7 +140,7 @@ button{background:none;border:0;cursor:pointer}
   text-transform:uppercase;color:#E4C271;line-height:1;
 }
 .brand-wordmark-standalone i{
-  position:relative;font-style:italic;font-weight:600;font-size:clamp(10px,1.1vw,13px);
+  position:relative;font-family:var(--serif);font-style:italic;font-weight:700;font-size:clamp(11px,1.3vw,15px);
   letter-spacing:.03em;color:#F0D48C;line-height:1;padding-top:3px;
 }
 .brand-wordmark-standalone i::before,.brand-wordmark-standalone i::after{
