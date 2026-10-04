@@ -5,7 +5,7 @@ const REDUCED = typeof window !== "undefined" && window.matchMedia("(prefers-red
 const INTERVAL_MS = 6000;
 
 const SLIDES = [
-  { id: "photo-1615529182904-14819c35db37", label: "Living Room", alt: "Calm sage-toned living room designed by Rishi Home Interior" },
+  { id: "photo-1586023492125-27b2c045efd7", label: "Living Room", alt: "Minimal living room corner with a single accent chair, designed by Rishi Home Interior" },
   { id: "photo-1600489000022-c2086d79f9d4", label: "Modular Kitchen", alt: "Forest green modular kitchen designed by Rishi Home Interior" },
   { id: "photo-1566665797739-1674de7a421a", label: "Master Bedroom", alt: "Fluted walnut master bedroom designed by Rishi Home Interior" },
   { id: "photo-1617806118233-18e1de247200", label: "Dining Room", alt: "Emerald velvet dining room designed by Rishi Home Interior" },
